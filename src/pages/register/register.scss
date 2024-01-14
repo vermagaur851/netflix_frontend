@@ -1,0 +1,95 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom,
+                rgba(0,0,0,0) 0%, 
+                rgba(0,0,0,1) 100% 
+                ), 
+                url("https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_small.jpg");
+    background-size: cover;
+    position: relative;
+    .top{
+        .wrapper{
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo{
+                height: 40px;
+            }
+
+            .loginButton{
+                background-color: rgb(229,9,20);
+                border: none;
+                color: white;
+                border-radius: 3px;
+                padding: 0.4rem 1rem;
+                font-size: 0.875rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        h1{
+            font-size: 50px;
+        }
+
+        h2{
+            margin: 20px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .Input{
+            width: 39%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            height: 50px;
+            border-radius: 5px;
+
+            input{
+                background-color: black;
+                color: white;
+                opacity: 70%;
+                flex: 9;
+                height: 100%;
+                border: 1px solid gray;
+                border-radius: 5px;
+                padding: 0 10px;
+                margin-right: 10px;
+            }
+
+            .registerButton{
+                flex: 3;
+                height: 100%;
+                background-color: rgb(229,9,20);
+                border: none;
+                border-radius: 5px;
+                color: white ;
+                font-size: 22px;
+                font-weight: 500;
+                padding: 0 20px;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,87 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0.2) 0%, 
+                rgba(0,0,0,1) 100% 
+                ), 
+                url("https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_small.jpg");
+    background-size: cover;
+    position: relative;
+
+    .top{
+        .wrapper{
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .Fill{
+                fill: #e50914;
+            }
+        }
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        form{
+            width: 290px;
+            height: 500px;
+            padding: 30px 70px 50px ;
+            border-radius: 2px;
+            background-color: black;
+            opacity: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            h1{
+                font-size: 30px;
+                font-weight: 500;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            input{
+                height: 40px;
+                border-radius: 5px;
+                background-color: gray;
+                color: white;
+                padding-left: 10px;
+
+                &::placeholder{
+                    color: lightgray
+                }
+            }
+
+            button{
+                height: 40px;
+                border-radius: 5px;
+                background-color: rgb(220,9,20);
+                color: white;
+                border: none;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            a{   
+                text-decoration: none;
+            }
+
+            span{
+                color: lightgray;
+            }
+        }
+    }
+}
