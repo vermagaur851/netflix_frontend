@@ -1,16 +1,8 @@
-import { useState } from 'react'
-
+import './app.scss'
+import Home from './home/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <h1>hello world !!!</h1>
-      </div>
-    </>
-  )
+  return <Home/>
 }
 
 export default App
